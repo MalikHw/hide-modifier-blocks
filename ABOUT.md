@@ -1,5 +1,5 @@
 # No Modifier Blocks At PlayTesting
-As the name says, hides modifier blocks at playtesting in the editor
+As the name says, hides modifier blocks (J, S, D, F, H ones) at playtesting in the editor
 
 ### Issues (because i'm a bad coder)
 - Won't show back when paused playtesting on Windows
