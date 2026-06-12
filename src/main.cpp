@@ -65,13 +65,21 @@ class $modify(LevelEditorLayer) {
     }
 
     void onPausePlaytest() {
+#ifdef GEODE_IS_WINDOWS // FUCK NO :sob:
+        LevelEditorLayer::onPausePlaytest();
+#else
         restoreSavedObjects();
         LevelEditorLayer::onPausePlaytest();
+#endif
     }
 
     void onResumePlaytest() {
+#ifdef GEODE_IS_WINDOWS // FUCK NO :sob:
+        LevelEditorLayer::onResumePlaytest();
+#else
         LevelEditorLayer::onResumePlaytest();
         hideMatchingObjects();
+#endif
     }
 
     void onStopPlaytest() {
