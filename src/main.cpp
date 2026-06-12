@@ -70,7 +70,7 @@ class $modify(LevelEditorLayer) {
     }
 
     void onResumePlaytest() {
-        LevelEditorLayer::onResumePlaytest()
+        LevelEditorLayer::onResumePlaytest();
         hideMatchingObjects();
     }
 
