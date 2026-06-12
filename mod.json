@@ -7,14 +7,13 @@
         "ios": "2.2081"
     },
     "version": "1.0.0",
-    "id": "MalikHw.hide-modifier-blocks",
-    "name": "hide-modifier-blocks",
-    "developer": "MalikHw",
-    "description": "desc.",
-    "tags": ["yes", "yeah"],
+    "id": "malikhw47.hide-modifier-blocks",
+    "name": "NoModifBlocksAtTest",
+    "developer": "MalikHw47",
+    "description": "Hides modifier blocks when playtesting in editor",
+    "tags": ["editor", "offline"],
     "links": {
         "source": "https://github.com/MalikHw/hide-modifier-blocks",
         "community": "https://discord.gg/G9bZ92eg2n"
-    },
-    "settings": {}
+    }
 }
