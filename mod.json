@@ -1,12 +1,12 @@
 {
-    "geode": "5.7.0",
+    "geode": "6.0.0-alpha.2",
     "gd": {
-        "win": "2.2081",
-        "mac": "2.2081",
-        "android": "2.2081",
-        "ios": "2.2081"
+        "win": "2.2091",
+        "mac": "2.2091",
+        "android": "2.2091",
+        "ios": "2.2091"
     },
-    "version": "1.0.1",
+    "version": "1.0.2",
     "id": "malikhw47.hide-modifier-blocks",
     "name": "NoModifBlocksAtTest",
     "developer": "MalikHw47",
