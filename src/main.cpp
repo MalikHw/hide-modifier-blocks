@@ -68,14 +68,14 @@ class $modify(LevelEditorLayer) {
         hideMatchingObjects();
     }
 
-#ifndef GEODE_IS_WINDOWS
+#if !defined(GEODE_IS_WINDOWS) && !defined(GEODE_IS_MACOS) && !defined(GEODE_IS_IOS)
     void onPausePlaytest() {
         restoreSavedObjects();
         LevelEditorLayer::onPausePlaytest();
     }
 #endif
 
-#ifndef GEODE_IS_WINDOWS
+#if !defined(GEODE_IS_WINDOWS) && !defined(GEODE_IS_MACOS) && !defined(GEODE_IS_IOS)
     void onResumePlaytest() {
         LevelEditorLayer::onResumePlaytest();
         hideMatchingObjects();
